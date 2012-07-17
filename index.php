@@ -4,8 +4,6 @@ define('GRAND_ACCESS',1);
 defined('APPLICATION_PATH') || define('APPLICATION_PATH', realpath(dirname(__FILE__)));    
 
 // Required.
-require_once './classes/dibi.min.php';
-require_once './_include/config.php';  
 require_once './_include/functions.php';  
 require_once './classes/weather_location.php';
 require_once './classes/xml_parser.php';
